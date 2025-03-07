@@ -8,6 +8,5 @@ import icon from "astro-icon";
 export default defineConfig({
   vite: { plugins: [tailwindcss()], },
   integrations: [icon()],
-  site: 'https://rigeltoth.github.io',
-  base: 'rigel-toth0-ui',
+  site: 'https://rigeltoth.com'
 });
